@@ -132,6 +132,7 @@ span {
 /* main first section */
 .mainfirst {
   padding-top: 72px;
+  padding-bottom: 88px;
 }
 .in-first-section {
   display: flex;
@@ -171,8 +172,7 @@ span {
 .types-text {
   text-align: center;
 }
-.text {
-}
+
 .first-section-title {
   font-weight: 600;
   font-style: "SemiBold";
@@ -202,4 +202,101 @@ span {
   background-color: #4177dc;
   margin-top: 48px;
   cursor: pointer;
+}
+.mainsecond {
+  padding-top: 72px;
+}
+.in-second-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.second-section-title {
+  margin-bottom: 64px;
+  width: 278px;
+  font-weight: 600;
+  font-style: "SemiBold";
+  font-size: 24px;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+}
+.cars-card {
+  padding-left: 24.5px;
+  padding-top: 32px;
+  width: 258px;
+  height: 328px;
+  background-image: url("../photos/cardback.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+}
+.card-title {
+  font-weight: 600;
+  font-style: "SemiBold";
+  font-size: 24px;
+  line-height: 140%;
+  letter-spacing: 0%;
+}
+.card-text { 
+  font-weight: 400;
+  font-style: 'Regular';
+  font-size: 16px; 
+  line-height: 140%;
+  letter-spacing: 0%;
+  color: #BABEC4;
+  margin-bottom: 12x;
+}
+.card-img {
+  margin-left: 32px;
+  margin-bottom: 21px;
+}
+.info-cards-car {
+  max-width: 163px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px 20px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+.info-cards-car p{
+  display: flex;
+  align-items: center;
+font-weight: 400;
+font-style: 'Regular';
+font-size: 13px;
+line-height: 140%;
+letter-spacing: 0%;
+
+}
+.pricebox {
+  display: flex;
+  justify-content: space-between;
+}
+.price { 
+font-weight: 600;
+font-style: 'SemiBold';
+font-size: 20px; 
+line-height: 140%;
+letter-spacing: 0%; 
+}
+.pricebtn { 
+width: 56px;
+height: 48px;
+padding: 12px 16px;
+border-top-left-radius: 20px;
+border-bottom-right-radius: 20px;
+background: #4177DC;
+border: none;
+cursor: pointer;
+}
+
+.indicator {
+  margin-top: 48px;
 }
