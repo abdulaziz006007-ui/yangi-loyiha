@@ -317,7 +317,7 @@ span {
   text-align: center;
 }
 
-.container2{
+.container2 {
   max-width: 888px;
   margin-left: auto;
   margin-right: auto;
@@ -360,30 +360,39 @@ span {
 }
 
 .card-title2 {
-font-weight: 600;
-font-style: 'SemiBold';
-font-size: 24px;
-line-height: 140%;
-letter-spacing: 0%;
+  font-weight: 600;
+  font-style: "SemiBold";
+  font-size: 24px;
+  line-height: 140%;
+  letter-spacing: 0%;
 }
 .card-text2 {
-font-weight: 400;
-font-style: 'Regular';
-font-size: 16px;
-line-height: 140%;
-letter-spacing: 0%;
-color: #BABEC4;
+  font-weight: 400;
+  font-style: "Regular";
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0%;
+  color: #babec4;
 }
 .card-img2 {
   margin-top: 32px;
   margin-bottom: 58px;
   height: 96px;
 }
-.mainfifth{
+.mainfifth {
   margin-top: 72px;
   background-image: url("../photos/Offer.png");
   height: 392px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.logos-box {
+  margin-top: 72px;
+  margin-bottom: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 106px;
 }
