@@ -396,3 +396,111 @@ span {
   justify-content: center;
   gap: 106px;
 }
+
+footer {
+  padding-bottom: 32px;
+  background-image: url(../photos/Footerback.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footerbar {
+  margin-top: 72px;
+  display: flex;
+  gap: 166px;
+
+}
+.footside {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 98px;
+}
+.footer1box {
+  width: 198px;
+  height: 112px;
+}
+.footer1title {
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-style: "SemiBold";
+  font-size: 24px;
+  line-height: 140%;
+  letter-spacing: 0%;
+}
+.footer-text {
+  font-weight: 400;
+  font-style: "Regular";
+  font-size: 13px;
+  line-height: 140%;
+  letter-spacing: 0%;
+  color: #babec4;
+}
+
+.footer2title {
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-style: "SemiBold";
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: 0%;
+}
+.footer2text {
+  margin-bottom: 12px;
+  font-weight: 400;
+  font-style: "Regular";
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0%;
+  color: #babec4;
+}
+
+.footer3title {
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-style: "SemiBold";
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: 0%;
+}
+.footer3text {
+  margin-bottom: 12px;
+  font-weight: 400;
+  font-style: "Regular";
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0%;
+  color: #babec4;
+}
+#footer3text {
+  margin-bottom: 12px;
+  font-weight: 400;
+  font-style: "Regular";
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0%;
+  color: #babec4;
+  white-space: nowrap;
+}
+.footer4title {
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-style: "SemiBold";
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: 0%;
+}
+.footer-icons {
+  display: flex;
+  gap: 24px;
+}
+.ending {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-style: "Regular";
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: 0%;
+}
